@@ -1,0 +1,31 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Widget de Clima</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="weather-widget">
+        <div class="search-container">
+            <select id="city-search" style="width: 100%;"></select>
+        </div>
+        <div class="weather-header">
+            <h2 id="city-name">🌍Ciudad</h2>
+        </div>
+        <div class="weather-main">
+            <h1 id="temperature">--°</h1>
+            <div class="weather-details">
+                <img id="weather-icon" src="" alt="Icono del clima">
+                <p id="description">--</p>
+            </div>
+        </div>
+        <div class="forecast" id="forecast"></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
