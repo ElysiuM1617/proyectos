@@ -22,7 +22,7 @@ Este proyecto es un widget de clima que muestra la temperatura actual y el pron�
 
 ## Estructura del Proyecto
 ```
-/weather-widget
+/clima
 │── index.html      # Estructura principal del widget
 │── style.css       # Estilos del widget
 │── script.js       # Lógica del widget
