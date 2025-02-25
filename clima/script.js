@@ -1,5 +1,5 @@
 // Api Key para OpenWeather
-const apiKey = 'a6d946b32dca96334746b6c6f50bf7de';
+const apiKey = '3f49e2ad22c62ef69135d686361a1e37';
 
 // Configuracion del buscador de ciudades, usa AJAX para traer datos en vivo
 $('#city-search').select2({
